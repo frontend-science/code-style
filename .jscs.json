@@ -1,0 +1,139 @@
+{
+    "excludeFiles": [
+        ".git/**",
+        "node_modules/**",
+        "**/data.js",
+        "libs/**"
+    ],
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+    "requireSpaceAfterKeywords": [
+        "do",
+        "for",
+        "if",
+        "else",
+        "switch",
+        "case",
+        "try",
+        "void",
+        "while",
+        "with",
+        "typeof",
+        "return"
+    ],
+    "disallowSpaceAfterKeywords": [
+        "catch"
+    ],
+    "disallowKeywords": ["with"],
+    "requireKeywordsOnNewLine": ["else"],
+    "requireSpaceBeforeBinaryOperators": [
+        "!",
+        "!!",
+        "?",
+        "+",
+        "-",
+        "/",
+        "*",
+        "=",
+        "==",
+        "===",
+        "!=",
+        "!==",
+        ">",
+        ">=",
+        "<",
+        "<="
+    ],
+    "disallowSpaceAfterBinaryOperators": [
+        "!",
+        "!!"
+    ],
+    "requireSpaceAfterBinaryOperators": [
+        "?",
+        "+",
+        "-",
+        "/",
+        "*",
+        "=",
+        "==",
+        "===",
+        "!=",
+        "!==",
+        ">",
+        ">=",
+        "<",
+        "<="
+    ],
+    "disallowSpaceBeforeBinaryOperators": [","],
+    "disallowSpaceBeforePostfixUnaryOperators": [
+        "++",
+        "--"
+    ],
+    "disallowSpaceAfterPrefixUnaryOperators": [
+        "++",
+        "--",
+        "+",
+        "-",
+        "~",
+        "!"
+    ],
+    "requireOperatorBeforeLineBreak": [
+        "?",
+        "=",
+        "+",
+        "-",
+        "/",
+        "*",
+        "==",
+        "===",
+        "!=",
+        "!==",
+        ">",
+        ">=",
+        "<",
+        "<="
+    ],
+
+    "validateJSDoc": {
+        "checkParamNames": true,
+        "requireParamTypes": true
+    },
+
+    "requireLineFeedAtFileEnd": true,
+
+    "validateIndentation": 4,
+    "disallowTrailingComma": true,
+    "disallowTrailingWhitespace": true,
+    "disallowMixedSpacesAndTabs": true,
+    "requireCommaBeforeLineBreak": true,
+    "disallowQuotedKeysInObjects": true,
+    "disallowSpaceAfterObjectKeys": true,
+
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
+    },
+
+    "requireSpacesInConditionalExpression": {
+        "afterTest": true,
+        "beforeConsequent": true,
+        "afterConsequent": true,
+        "beforeAlternate": true
+    },
+    "requireParenthesesAroundIIFE": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "requireSpaceBeforeBlockStatements": true,
+    "disallowEmptyBlocks": true,
+    "validateQuoteMarks": {
+      "mark": "'",
+      "escape": true
+    },
+    "requireSpacesInsideObjectBrackets": "all"
+}

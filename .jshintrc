@@ -1,0 +1,22 @@
+{
+    "undef": true,
+    "unused": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": false,
+    "expr": true,
+    "latedef": true,
+    "maxdepth": 4,
+    "noarg": true,
+    "nonew": true,
+    "notypeof": true,
+    "lastsemic": true,
+    "strict": false,
+    "browser": true,
+    "globals": {
+        "Handlebars": true,
+        "$": true,
+        "console": true,
+        "posts": true
+    }
+}
